@@ -57,7 +57,7 @@ function Footer({ navItems }) {
               <p>
                 <span className="italic">info@faktorymail.com</span>
                 <br />
-                Tel: 703.307.7001
+                Tel: 317.926.1727
               </p>
             </div>
           </div>
