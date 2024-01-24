@@ -40,6 +40,24 @@ export default class MyDocument extends Document {
           />
         </Head>
         <body>
+          <div className="bg-dark-gray p-4 lg:px-14 lg:py-6">
+            <div
+              className="text-center text-white text-sm sm:text-base"
+              style={{ textWrap: "balance" }}
+            >
+              <p>
+                <strong>Exciting news!</strong> Faktory has been acquired by
+                TrendyMinds.{" "}
+                <a
+                  className="text-peach underline hover:no-underline"
+                  href="https://blog.trendyminds.com/trendyminds-acquires-full-service-marketing-agency-faktory"
+                >
+                  Learn more
+                </a>
+                .
+              </p>
+            </div>
+          </div>
           <Main />
           <NextScript />
         </body>
